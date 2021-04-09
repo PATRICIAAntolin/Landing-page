@@ -1,5 +1,16 @@
 @import "~bootstrap/scss/bootstrap.scss";
-
+.card {
+    width: 25%;
+}
+.father {
+  display: flex; 
+  justify-content:center;
+}
+.bodypage {
+    width:75%;
+    display: flex;
+    flex-direction: column;
+}
 /* 
 
     You can write your own styles here...
