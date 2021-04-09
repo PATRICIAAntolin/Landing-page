@@ -2,6 +2,7 @@ import React from "react";
 import { Navbar } from "./navbar.js";
 import { Jumbotron } from "./jumbotron.js";
 import { Card } from "./card.js";
+import { Footer } from "./footer.js";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -37,6 +38,7 @@ export function Home() {
 					</div>
 				</div>
 			</div>
+			<Footer></Footer>
 		</>
 	);
 }
